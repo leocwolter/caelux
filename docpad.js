@@ -1,5 +1,4 @@
 docpadConfig = function(){
-	
 	var categories = [
 		"ata",
 		"novosConhecimentos",
@@ -23,14 +22,14 @@ docpadConfig = function(){
 			var collections = {
 				posts : function(){
 					return this.getCollection("documents")
-								 .setFilter('isPost', function(model){
-								 	var isIn = model.attributes.fullPath.substr((__dirname+'/src/').length)
-								 	return isIn.indexOf('posts') == 0
+                 .setFilter('isPost', function(model){
+                 	var isIn = model.attributes.fullPath.substr((__dirname+'/src/').length)
+                 	return isIn.indexOf('posts') == 0
+                 })
+                 .on("add", function(model){
+                 	model.setMeta({ extensions: ['html','md', 'hb'], layout: 'post'})
 								 })
-								 .on("add", function(model){
-								 	model.setMetaDefaults({layout: 'post'})
-								 })
-								 .live()
+                 .live()
 				}
 			}
 
