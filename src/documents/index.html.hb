@@ -1,10 +1,13 @@
 ---
-layout: 'default'
+layout: default
 referenceOthers: true
 ---
 
 <ul>
-	{{#each posts}}
-		<li>{{{contentRenderedWithoutLayouts}}}</li>
+	{{#each (getCollection "posts")}}
+		<li>
+			<h2>{{{this.title}}}</h2>
+			{{{this.contentRenderedWithoutLayouts}}}
+		</li>
 	{{/each}}
 </ul>

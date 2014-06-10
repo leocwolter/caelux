@@ -8,6 +8,8 @@
 	<header>
 		<h1>{{site.title}}</h1>
 	</header>
-	{{{content}}}
+	<main>
+		{{{content}}}
+	</main>
 </body>
-</html>	
+</html>
