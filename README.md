@@ -6,7 +6,7 @@ Para gerar o site estamos usando o [Docpad](http://docpad.org/) e como linguagem
 
 Todo arquivo dentro da pasta ```src/posts``` será considerado um post.
 
-É possível usar [markdown](https://guides.github.com/features/mastering-markdown/) e até mesmo o hadlebars.
+Se quiser usar [markdown](https://guides.github.com/features/mastering-markdown/) é só salvar com a extensão ```.html.md```.
 
 Todo post deve conter um cabeçalho como o do exemplo:
 ```
