@@ -10,6 +10,8 @@ docpadConfig = function(){
 
 	return {
 		documentsPaths: ['documents', 'posts'],
+		
+		filesPaths: ['assets'],
 
 		plugins: {
 			handlebars: {
