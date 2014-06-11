@@ -54,6 +54,12 @@ docpadConfig = function(){
 			return collections
 		}(),
 
+		templateData: {
+			site: {
+				title: "Blog do CaelUX"
+			}
+		},
+
 		environments: {
 			static: {
 				templateData: {
@@ -62,14 +68,7 @@ docpadConfig = function(){
 					}
 				}
 			}
-		},
-
-		templateData: {
-			site: {
-				title: "Blog do CaelUX"
-			}
 		}
-
 	}
 }()
 module.exports = docpadConfig
