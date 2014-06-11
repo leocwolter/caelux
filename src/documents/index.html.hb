@@ -2,12 +2,11 @@
 layout: default
 referenceOthers: true
 ---
-
 <ul>
 	{{#each (getCollection "posts")}}
-		<li>
+		<ol>
 			<span>{{dateAsText this.date}}</span>
-			<h2>{{{this.title}}}</h2>
-		</li>
+			<a href="{{this.url}}">{{{this.title}}}</a>
+		</ol>
 	{{/each}}
 </ul>

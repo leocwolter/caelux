@@ -1,7 +1,7 @@
 moment = require('moment')
 
 docpadConfig = function(){
-	
+
 	var categories = [
 		"ata",
 		"novosConhecimentos",
@@ -54,7 +54,7 @@ docpadConfig = function(){
 
 		templateData: {
 			site: {
-				title: "CaelUX"
+				title: "Blog do CaelUX"
 			}
 		}
 
