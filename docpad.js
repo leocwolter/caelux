@@ -24,6 +24,12 @@ docpadConfig = function(){
 						return moment(date).lang('pt').format('DD MMM YYYY')
 					}
 				}
+			},
+
+			rss: {
+				default: {
+						collection: 'posts'
+				}
 			}
 		},
 
