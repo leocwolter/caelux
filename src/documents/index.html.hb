@@ -7,7 +7,7 @@ referenceOthers: true
 		<li class="post">
 			<small class="post-info post-category">{{this.category}}</small>
 			<span class="post-info post-date">{{dateAsText this.date}}</span>
-			<a class="post-link" href="{{this.url}}">{{{this.title}}}</a>
+			<a class="post-link" href="{{site.url}}{{this.url}}">{{{this.title}}}</a>
 		</li>
 	{{/each}}
 </ol>

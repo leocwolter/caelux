@@ -10,7 +10,8 @@
     "docpad": "~6.68.1",
     "docpad-plugin-handlebars": "~2.3.0",
     "docpad-plugin-marked": "~2.2.1",
-    "docpad-plugin-cleanurls": "~2.7.0"
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-ghpages": "~2.4.3"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {

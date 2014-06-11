@@ -10,7 +10,7 @@ docpadConfig = function(){
 
 	return {
 		documentsPaths: ['documents', 'posts'],
-		
+
 		filesPaths: ['assets'],
 
 		plugins: {
@@ -53,6 +53,14 @@ docpadConfig = function(){
 			}
 			return collections
 		}(),
+
+		environments: {
+			static: {
+				site: {
+					url: "http://leocwolter.github.io/caelux"
+				}
+			}
+		},
 
 		templateData: {
 			site: {
