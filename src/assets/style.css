@@ -24,23 +24,30 @@ header {
 }
 
 main {
-  padding: 5em;
+  padding: 3em;
 }
 
 .post-prez {
   list-style: none;
 }
 
+.post-prez .post {
+  margin-bottom: 5em;
+}
+
 .post-info {
   display: inline-block;
   margin-bottom: .5em;
+  vertical-align: middle;
   font-size: 1.3em;
   font-variant: small-caps;
   color: #656565;
 }
 
 .post-category {
-  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .post-category:before,
@@ -56,6 +63,10 @@ main {
 
 .post-category:after {
   content: "]";
+}
+
+.post-category.ata {
+  color: red;
 }
 
 .post-link {
@@ -93,8 +104,9 @@ main {
 
   main {
     display: inline-block;
-    width: calc(100% - 22.5em);
+    max-width: calc(100% - 22.5em);
     overflow: auto;
     vertical-align: top;
+    padding: 5em;
   }
 }

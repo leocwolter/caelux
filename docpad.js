@@ -56,8 +56,10 @@ docpadConfig = function(){
 
 		environments: {
 			static: {
-				site: {
-					url: "http://leocwolter.github.io/caelux"
+				templateData: {
+					site: {
+						url: "http://leocwolter.github.io/caelux"
+					}
 				}
 			}
 		},
