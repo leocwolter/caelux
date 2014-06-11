@@ -2,6 +2,7 @@
 date: 2014-06-10
 category: ata
 title: Olá Mundo! Esse blog é muito fera :)
+layout: post
 ---
 Lorem ipsum **dolor** sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

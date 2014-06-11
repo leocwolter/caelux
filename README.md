@@ -14,6 +14,7 @@ Todo post deve conter um cabeçalho como o do exemplo:
 date: yyyy-mm-dd
 category: categoriaDoPost
 title: nomeDoPost
+layout: post
 ---
 ```
 Tudo que vier abaixo desse cabeçalho será considerado conteúdo.

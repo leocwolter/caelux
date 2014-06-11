@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{site.title}}</title>
-	<link rel="stylesheet" href="{{site.url}}/style.css">
+	<link rel="stylesheet" href="{{site.baseUrl}}/style.css">
 </head>
 <body>
 	<header>
