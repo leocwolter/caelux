@@ -72,6 +72,14 @@ main {
   color: red;
 }
 
+.post-category.ata {
+  color: #1182C7;
+}
+
+.post-category.novosConhecimentos {
+  color: #17CB52;
+}
+
 .post-prez .post-link {
   display: block;
   font-size: 2em;
