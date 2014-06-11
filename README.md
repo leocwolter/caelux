@@ -11,13 +11,18 @@ Se quiser usar [markdown](https://guides.github.com/features/mastering-markdown/
 Todo post deve conter um cabeçalho como o do exemplo:
 ```
 ---
+date: yyyy-mm-dd
 category: categoriaDoPost
 title: nomeDoPost
 ---
 ```
 Tudo que vier abaixo desse cabeçalho será considerado conteúdo.
 
-##Categorias
+##As Categorias
+Por enquanto temos as categorias:
+- ata
+- novosConhecimentos
+- geral
 
 Lá no arquivo ```docpad.js``` temos uma variável ```categories```. Se precisar adicionar ou editar uma categoria, é só mexer lá.
 
