@@ -6,8 +6,8 @@ referenceOthers: true
 <ul>
 	{{#each (getCollection "posts")}}
 		<li>
+			<span>{{dateAsText this.date}}</span>
 			<h2>{{{this.title}}}</h2>
-			{{{this.contentRenderedWithoutLayouts}}}
 		</li>
 	{{/each}}
 </ul>

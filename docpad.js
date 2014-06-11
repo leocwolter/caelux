@@ -1,3 +1,5 @@
+moment = require('moment')
+
 docpadConfig = function(){
 	var categories = [
 		"ata",
@@ -13,6 +15,10 @@ docpadConfig = function(){
 				helpers: {
 					getCollection: function(name){
 						return this.getCollection(name).toJSON()
+					},
+
+					dateAsText: function(date){
+						return moment(date).lang('pt').format('DD MMM YYYY')
 					}
 				}
 			}
