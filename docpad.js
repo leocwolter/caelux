@@ -56,7 +56,7 @@ docpadConfig = function(){
 
 		templateData: {
 			site: {
-				title: "Blog do CaelUX"
+				title: "CaelUX"
 			}
 		},
 

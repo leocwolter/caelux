@@ -21,6 +21,9 @@ header {
 
 .header-title {
   color: #26C1D4;
+  font-size: 3em;
+  font-variant: small-caps;
+  font-weight: lighter;
 }
 
 main {
@@ -35,7 +38,7 @@ main {
   margin-bottom: 5em;
 }
 
-.post-info {
+.post-prez .post-info {
   display: inline-block;
   margin-bottom: .5em;
   vertical-align: middle;
@@ -44,24 +47,24 @@ main {
   color: #656565;
 }
 
-.post-category {
+.post-prez .post-category {
   margin-left: 1em;
   font-size: 1em;
   font-weight: bold;
 }
 
-.post-category:before,
-.post-category:after {
+.post-prez .post-category:before,
+.post-prez .post-category:after {
   display: inline-block;
   vertical-align: middle;
   margin: 0 .2em;
 }
 
-.post-category:before {
+.post-prez .post-category:before {
   content: "[";
 }
 
-.post-category:after {
+.post-prez .post-category:after {
   content: "]";
 }
 
@@ -69,13 +72,29 @@ main {
   color: red;
 }
 
-.post-link {
+.post-prez .post-link {
   display: block;
   font-size: 2em;
 }
 
-.post-link:not(:hover){
+.post-prez .post-link:not(:hover){
   text-decoration: none;
+}
+
+.post-title {
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin-bottom: 1.2em;
+}
+
+.post-body {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.post-body > p:first-letter {
+  font-size: 2em;
+  letter-spacing: .1em;
 }
 
 @media (min-width: 955px) {
@@ -86,9 +105,9 @@ main {
   header {
     display: inline-block;
     height: 100%;
-    width: 22.5em;
-    left: 0;
-    top: 0;
+    width: 18.5em;
+    text-align: center;
+    letter-spacing: -1em;
   }
 
   header:before {
@@ -98,13 +117,13 @@ main {
     vertical-align: middle;
   }
 
-  header h1 {
+  .header-title {
     display: inline-block;
   }
 
   main {
     display: inline-block;
-    max-width: calc(100% - 22.5em);
+    max-width: calc(100% - 18.5em);
     overflow: auto;
     vertical-align: top;
     padding: 5em;
