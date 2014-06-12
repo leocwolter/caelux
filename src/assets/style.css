@@ -5,6 +5,15 @@
   letter-spacing: normal;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: "Georgia", serif;
 }
@@ -19,11 +28,38 @@ header {
   padding: 3em;
 }
 
-.header-title {
+.header-content {
   color: #26C1D4;
+  letter-spacing: 1.5em;
+}
+
+.header-title {
   font-size: 3em;
   font-variant: small-caps;
   font-weight: lighter;
+}
+
+.header-option {
+  display: inline-block;
+  margin-top: .5em;
+  font-size: 1.7em;
+}
+
+.header-option-alt {
+  display: none;
+}
+
+.header-option:before {
+  font-family: "icomoon";
+  display: inline-block;
+}
+
+.home-link:before {
+  content: "\e600";
+}
+
+.feed-link:before {
+  content: "\e601";
 }
 
 main {
@@ -85,10 +121,6 @@ main {
   font-size: 2em;
 }
 
-.post-prez .post-link:not(:hover){
-  text-decoration: none;
-}
-
 .post-title {
   font-size: 3.5em;
   font-weight: lighter;
@@ -125,8 +157,12 @@ main {
     vertical-align: middle;
   }
 
-  .header-title {
+  .header-content {
     display: inline-block;
+  }
+
+  .header-option {
+    margin-top: 1em;
   }
 
   main {
