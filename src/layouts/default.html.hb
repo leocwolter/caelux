@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devicewidth, initial-scale=1, user-scalable=no">
 	<title>{{site.title}}</title>
 	<link rel="stylesheet" href="{{site.baseUrl}}/icons.css">
 	<link rel="stylesheet" href="{{site.baseUrl}}/style.css">
