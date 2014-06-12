@@ -1,4 +1,6 @@
 moment = require('moment')
+cheerio = require('cheerio')
+url = require('url')
 
 docpadConfig = function(){
 
@@ -22,14 +24,44 @@ docpadConfig = function(){
 
 					dateAsText: function(date){
 						return moment(date).lang('pt').format('DD MMM YYYY')
-					}
-				}
-			},
+					},
 
-			rss: {
-				default: {
-						collection: 'posts'
-				}
+					getIdForDocument: function(document, docpad) {
+			      var date, hostname, path
+			      hostname = url.parse(docpad.site.url).hostname
+			      date = document.date.toISOString().split('T')[0]
+			      path = document.url
+			      return "tag:" + hostname + "," + date + "," + path
+		    	},
+
+			    fixLinks: function(content, docpad) {
+			      var $, baseUrl, regex
+			      baseUrl = docpad.site.url
+			      regex = /^(http|https|ftp|mailto):/
+			      $ = cheerio.load(content)
+			      $('img').each(function() {
+			        var $img, src
+			        $img = $(this)
+			        src = $img.attr('src')
+			        if (!regex.test(src)) {
+			          return $img.attr('src', baseUrl + src)
+			        }
+			      })
+			      $('a').each(function() {
+			        var $a, href
+			        $a = $(this)
+			        href = $a.attr('href')
+			        if (!regex.test(href)) {
+			          return $a.attr('href', baseUrl + href)
+			        }
+			      })
+			      return $.html()
+			    },
+
+					feedDate: function(date){
+						return date.toISOString()
+					}
+		  	}
 			}
 		},
 
@@ -70,6 +102,7 @@ docpadConfig = function(){
 			static: {
 				templateData: {
 					site: {
+						url: "leocwolter.github.io/caelux",
 						baseUrl: "/caelux"
 					}
 				}

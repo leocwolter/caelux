@@ -11,8 +11,7 @@
     "docpad-plugin-handlebars": "~2.3.0",
     "docpad-plugin-marked": "~2.2.1",
     "docpad-plugin-cleanurls": "~2.7.0",
-    "docpad-plugin-ghpages": "~2.4.3",
-    "docpad-plugin-rss": "^2.0.1"
+    "docpad-plugin-ghpages": "~2.4.3"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
