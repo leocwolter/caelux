@@ -152,12 +152,8 @@ main {
 }
 
 @media (min-width: 955px) {
-  body {
-    letter-spacing: -1em;
-  }
-
   header {
-    display: inline-block;
+    position: fixed;
     height: 100%;
     width: 18.5em;
     text-align: center;
@@ -180,10 +176,8 @@ main {
   }
 
   main {
-    display: inline-block;
-    max-width: calc(100% - 18.5em);
     overflow: auto;
-    vertical-align: top;
-    padding: 5em;
+    /*padding-left: header.width + 5em*/
+    padding: 5em 5em 5em 23.5em;
   }
 }
