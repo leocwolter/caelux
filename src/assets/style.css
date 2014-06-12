@@ -137,18 +137,31 @@ main {
   letter-spacing: .1em;
 }
 
-.post-body > * {
+.post-body p,
+.post-body pre {
   margin-bottom: 1.5em;
 }
 
 .post-body ul,
 .post-body ol {
   list-style-position: inside;
+  margin-bottom: 1.5em;
 }
 
 .post-body a {
   color: blue;
   text-decoration: underline;
+}
+
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  padding-bottom: .3em;
+  margin: 2em 0 1em;
+  border-bottom: 1px solid #aeaeae;
 }
 
 #disqus_thread {
