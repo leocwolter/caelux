@@ -151,6 +151,11 @@ main {
   text-decoration: underline;
 }
 
+#disqus_thread {
+  margin-top: 5em;
+  max-width: 800px;
+}
+
 @media (min-width: 955px) {
   header {
     position: fixed;
