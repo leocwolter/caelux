@@ -31,7 +31,7 @@ docpadConfig = function(){
 			      hostname = url.parse(docpad.site.url).hostname
 			      date = document.date.toISOString().split('T')[0]
 			      path = document.url
-			      return "tag:" + hostname + "," + date + "," + path
+			      return "tag:" + hostname + "," + date + ":" + path
 		    	},
 
 			    fixLinks: function(content, docpad) {

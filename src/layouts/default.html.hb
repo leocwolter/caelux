@@ -5,7 +5,7 @@
 	<title>{{site.title}}</title>
 	<link rel="stylesheet" href="{{site.baseUrl}}/icons.css">
 	<link rel="stylesheet" href="{{site.baseUrl}}/style.css">
-	<link rel="alternate" type="application/atom+xml" title="CaelUX" href="{{site.baseUrl}}/feed.xml">
+	<link rel="alternate" type="application/atom+xml" title="CaelUX" href="{{site.baseUrl}}/feed">
 </head>
 <body>
 	<header>

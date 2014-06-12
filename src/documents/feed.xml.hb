@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.title }}</title>
-    <link href="{{ site.url }}/feed.xml" rel="self"/>
+    <link href="{{ site.url }}/feed" rel="self"/>
     <link href="{{ site.url }}"/>
     <updated>{{ feedDate site.date }}</updated>
     <id>{{ site.url }}</id>
     <author>
-        <name>{{ site.author }}</name>
-        <email>{{ site.email }}</email>
+        <name>{{ site.title }}</name>
     </author>
 
     {{#each (getCollection "posts")}}
