@@ -102,7 +102,7 @@ docpadConfig = function(){
 			static: {
 				templateData: {
 					site: {
-						url: "leocwolter.github.io/caelux",
+						url: "http://leocwolter.github.io/caelux",
 						baseUrl: "/caelux"
 					}
 				}
