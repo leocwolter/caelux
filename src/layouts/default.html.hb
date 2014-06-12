@@ -14,7 +14,7 @@
 			<a class="header-option home-link" href='{{site.baseUrl}}/'>
 				<span class="header-option-alt">Ir para a página principal</span>
 			</a>
-			<a class="header-option feed-link" href='{{site.baseUrl}}/feed.xml'>
+			<a class="header-option feed-link" href='{{site.baseUrl}}/feed'>
 				<span class="header-option-alt">Assine o feed</span>
 			</a>
 		</span>
