@@ -137,6 +137,20 @@ main {
   letter-spacing: .1em;
 }
 
+.post-body > * {
+  margin-bottom: 1.5em;
+}
+
+.post-body ul,
+.post-body ol {
+  list-style-position: inside;
+}
+
+.post-body a {
+  color: blue;
+  text-decoration: underline;
+}
+
 @media (min-width: 955px) {
   body {
     letter-spacing: -1em;
