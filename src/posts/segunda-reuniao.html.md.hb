@@ -6,4 +6,4 @@ layout: post
 ---
 
 ##Segunda Reunião
-![Foto Lousa](/images/segunda-reuniao.jpg)
+![Foto Lousa]({{site.baseUrl}}/images/segunda-reuniao.jpg)

@@ -6,4 +6,4 @@ layout: post
 ---
 
 ##Primeira Reunião
-![Foto Lousa](/images/primeira-reuniao.jpg)
+![Foto Lousa]({{site.baseUrl}}/images/primeira-reuniao.jpg)
