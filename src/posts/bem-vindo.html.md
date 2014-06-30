@@ -1,7 +1,7 @@
 ---
 date: 2014-06-12
 category: geral
-title: Bem-vindo ao o Blog do CaelUX :)
+title: Bem-vindo ao Blog do CaelUX :)
 layout: post
 ---
 
