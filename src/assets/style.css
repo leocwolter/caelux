@@ -133,13 +133,13 @@ main {
 }
 
 .post-body > p:first-letter {
-  font-size: 2em;
-  letter-spacing: .1em;
+  font-size: 1.4em;
 }
 
 .post-body p,
 .post-body pre {
   margin-bottom: 1.5em;
+  text-align: justify;
 }
 
 .post-body ul,
