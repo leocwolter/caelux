@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devicewidth, initial-scale=1, user-scalable=no">
+	<title>CaelUX</title>
+	<link rel="stylesheet" href="/caelux/icons.css">
+	<link rel="stylesheet" href="/caelux/style.css">
+	<link rel="alternate" type="application/atom+xml" title="CaelUX" href="/caelux/feed">
+</head>
+<body>
+	<header>
+		<span class="header-content">
+			<h1 class="header-title">CaelUX</h1>
+			<a class="header-option home-link" href='/caelux/'>
+				<span class="header-option-alt">Ir para a página principal</span>
+			</a>
+			<a class="header-option feed-link" href='/caelux/feed'>
+				<span class="header-option-alt">Assine o feed</span>
+			</a>
+		</span>
+	</header>
+	<main>
+		<article>
+  <h2 class="post-title">Bem-vindo ao Blog do CaelUX :)</h2>
+  <div class="post-body">
+    <h2 id="como-criar-um-post">Como criar um post</h2>
+<p>Todo arquivo dentro da pasta <code>src/posts</code> será considerado um post.
+Se quiser usar <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> é só salvar com a extensão <code>.html.md</code>.
+Todo post deve conter um cabeçalho como o do exemplo:</p>
+<pre><code>---
+date: yyyy-mm-dd
+category: categoriaDoPost
+title: nomeDoPost
+layout: post
+---
+</code></pre><p>Tudo que vier abaixo desse cabeçalho será considerado conteúdo.</p>
+<h2 id="as-categorias">As Categorias</h2>
+<p>Por enquanto temos as categorias:</p>
+<ul>
+<li>ata</li>
+<li>novosConhecimentos</li>
+<li>geral</li>
+</ul>
+<p>Lá no arquivo <code>docpad.js</code> temos uma variável <code>categories</code>. Se precisar adicionar ou editar uma categoria, é só mexer lá.</p>
+<h2 id="como-testar-na-sua-m-quina">Como testar na sua máquina</h2>
+<p>Você vai precisar instalar o <a href="http://nodejs.org/">NodeJS</a> e depois executar o seguinte comando na raíz do projeto:</p>
+<pre><code>npm install
+</code></pre><p>Se tudo der certo na instalação das dependências (comando acima), é só executar o seguinte comando:</p>
+<pre><code>docpad run
+</code></pre><p>O blog estará em <code>http://localhost:9778</code></p>
+<h2 id="poss-veis-erros">Possíveis erros</h2>
+<ul>
+<li>Se o <code>npm install</code> falhou, tente rodar com <code>sudo</code>;</li>
+<li>Se o <code>docpad run</code> não funcionou depois que você adicionou seu post, provavelmente há algum erro de sintaxe que zuou a vida na hora de parsear. Dê uma boa olhada no seu arquivo do post;</li>
+</ul>
+<h2 id="deploy">Deploy</h2>
+<p>Execute esse comando na raíz do projeto:</p>
+<pre><code>docpad deploy-ghpages --env static
+</code></pre><p>O blog estará em <code>http://leocwolter.github.io/caelux</code></p>
+
+  </div>
+  
+</article>
+<div id="disqus_thread"><div>
+<script async>
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'caelux'; // required: replace example with your forum shortname
+    var disqus_identifier = '2014-06-12T00:00:00.000Z:/bem-vindo';
+    var disqus_url = 'http://leocwolter.github.io/caelux/bem-vindo';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	</main>
+</body>
+</html>

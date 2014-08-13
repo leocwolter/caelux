@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Georgia", serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background: #1B2A4D;
+  padding: 3em;
+}
+
+.header-content {
+  color: #26C1D4;
+  letter-spacing: 1.5em;
+}
+
+.header-title {
+  font-size: 3em;
+  font-variant: small-caps;
+  font-weight: lighter;
+}
+
+.header-option {
+  display: inline-block;
+  margin-top: .5em;
+  font-size: 1.7em;
+}
+
+.header-option-alt {
+  display: none;
+}
+
+.header-option:before {
+  font-family: "icomoon";
+  display: inline-block;
+}
+
+.home-link:before {
+  content: "\e600";
+}
+
+.feed-link:before {
+  content: "\e601";
+}
+
+main {
+  padding: 3em;
+}
+
+.post-prez {
+  list-style: none;
+}
+
+.post-prez .post {
+  margin-bottom: 5em;
+}
+
+.post-prez .post-info {
+  display: inline-block;
+  margin-bottom: .5em;
+  vertical-align: middle;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  color: #656565;
+}
+
+.post-prez .post-category {
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.post-prez .post-category:before,
+.post-prez .post-category:after {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 .2em;
+}
+
+.post-prez .post-category:before {
+  content: "[";
+}
+
+.post-prez .post-category:after {
+  content: "]";
+}
+
+.post-category.ata {
+  color: red;
+}
+
+.post-category.geral {
+  color: #1182C7;
+}
+
+.post-category.novosConhecimentos {
+  color: #17CB52;
+}
+
+.post-prez .post-link {
+  display: block;
+  font-size: 2em;
+}
+
+.post-title {
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin-bottom: 1.2em;
+}
+
+.post-body {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.post-body > p:first-letter {
+  font-size: 1.4em;
+}
+
+.post-body p,
+.post-body pre {
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+.post-body ul,
+.post-body ol {
+  list-style-position: inside;
+  margin-bottom: 1.5em;
+}
+
+.post-body a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  padding-bottom: .3em;
+  margin: 2em 0 1em;
+  border-bottom: 1px solid #aeaeae;
+}
+
+#disqus_thread {
+  margin-top: 5em;
+  max-width: 800px;
+}
+
+@media (min-width: 955px) {
+  header {
+    position: fixed;
+    height: 100%;
+    width: 18.5em;
+    text-align: center;
+    letter-spacing: -1em;
+  }
+
+  header:before {
+    content:"";
+    display:inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .header-content {
+    display: inline-block;
+  }
+
+  .header-option {
+    margin-top: 1em;
+  }
+
+  main {
+    overflow: auto;
+    /*padding-left: header.width + 5em*/
+    padding: 5em 5em 5em 23.5em;
+  }
+}

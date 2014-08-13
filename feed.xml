@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>CaelUX</title>
+    <link href="http://leocwolter.github.io/caelux/feed" rel="self"/>
+    <link href="http://leocwolter.github.io/caelux"/>
+    <updated>2014-08-13T22:10:51.044Z</updated>
+    <id>http://leocwolter.github.io/caelux</id>
+    <author>
+        <name>CaelUX</name>
+    </author>
+
+    
+      
+        <entry>
+            <title>Conceituando sobre UX</title>
+            <link href="http://leocwolter.github.io/caelux/conceituando-sobre-ux"/>
+            <updated>2014-07-31T00:00:00.000Z</updated>
+            <id>tag:leocwolter.github.io,2014-07-31:/conceituando-sobre-ux</id>
+            <content type="html"><![CDATA[<h2 id="como-surgiu-o-termo-user-experience-ux-">Como surgiu o termo User Experience (UX) ?</h2>
+<p>Com o novo grupo de estudos sobre UX da Caelum, criou-se a necessidade de ir em busca de novas informa&#xE7;&#xF5;es sobre UX n&#xE3;o s&#xF3; na atualidade, mas tamb&#xE9;m dos conceitos base.</p>
+<p>Quando n&#xF3;s perguntamos o que &#xE9; UX, as primeiras palavras que come&#xE7;am aparecer s&#xE3;o: usabilidade (facilidade de se usar), arquitetura de informa&#xE7;&#xE3;o (como ser&#xE1; feita a distribui&#xE7;&#xE3;o do conte&#xFA;do) e interface de usu&#xE1;rio (apar&#xEA;ncia do produto). Ser&#xE1; que UX &#xE9; realmente um nome dado para esse conjunto de termos t&#xE9;cnicos ?</p>
+<p>Quem cunhou o termo foi o Don Norman, que utilizou o seguinte argumento para descrever UX: </p>
+<pre><code>&#x201C; Eu inventei o termo porque para mim, termos como 
+interface de usu&#xE1;rio e usabilidade eram muito restritos. 
+Eu queria contemplar todos os aspectos da experi&#xEA;ncia 
+de uma pessoa com um sistema, incluindo o design 
+visual, a interface, a intera&#xE7;&#xE3;o f&#xED;sica e o manual. Desde 
+ent&#xE3;o, o termo se espalhou amplamente, tanto que ele 
+est&#xE1; come&#xE7;ando a perder o seu significado. &#x201D;
+</code></pre><p>Usabilidade, arquitetura de informa&#xE7;&#xE3;o e interface de usu&#xE1;rio na verdade s&#xE3;o disciplinas que buscam atingir uma melhor experiencia do usu&#xE1;rio com o produto. A imagem abaixo mostra o conjunto de todas.</p>
+<p><img src="http://leocwolter.github.io/caelux/caelux/images/disciplinas-ux.jpg" alt="UX Disciplinas"></p>
+<p>Norman, em seu trabalho, era conhecido como o cara da usabilidade. Ele queria ser o cara que ia al&#xE9;m dos termos e que conseguiria captar as emo&#xE7;&#xF5;es dos seus usu&#xE1;rios e analisar como se comportavam.</p>
+<p>Um dos seus principais estudos foi sobre Design Emocional, que busca entender essas sensa&#xE7;&#xF5;es que o usu&#xE1;rio tem com o produto. Ele descreve tr&#xEA;s n&#xED;veis emocionais &#x2013; a visceral, a comportamental e a reflexiva, que um produto bem projetado precisa atingir para ser bem sucedido.</p>
+<p>Design visceral &#xE9; aquele superficial, tem rela&#xE7;&#xE3;o com as apar&#xEA;ncias do produto (cor, tamanho, formato...), ligado ao subconsciente. O design comportamental descreve o prazer e a afetividade no uso. J&#xE1; o design reflexivo carrega algo al&#xE9;m do produto, a imagem que ele proporciona.</p>
+<p>Algumas coisas que podemos afirmar &#xE9; que UX n&#xE3;o &#xE9; responsabilidade do Designer e sim uma responsabilidade de todos os envolvidos no projeto. Para de fato funcionar &#xE9; preciso que exista a cultura na organiza&#xE7;&#xE3;o.</p>
+<p>Lembre-se: quando for desenvolver um projeto n&#xE3;o tente imaginar quem &#xE9; o seu usu&#xE1;rio, busque a maior quantidade poss&#xED;vel de informa&#xE7;&#xF5;es e coloque-o no centro do projeto, trabalhando todas as atividades com foco nele.</p>
+<h3 id="dica-de-leitura">Dica de leitura</h3>
+<p>Design Emocional: porque adoramos (ou detestamos) os objetos do dia-a-dia<br>Autor: Donald A. Norman</p>
+]]></content>
+        </entry>
+      
+    
+      
+        <entry>
+            <title>Primeira Reunião</title>
+            <link href="http://leocwolter.github.io/caelux/primeira-reuniao"/>
+            <updated>2014-06-30T00:00:00.000Z</updated>
+            <id>tag:leocwolter.github.io,2014-06-30:/primeira-reuniao</id>
+            <content type="html"><![CDATA[<h2 id="primeira-reuni-o">Primeira Reuni&#xE3;o</h2>
+<p><img src="http://leocwolter.github.io/caelux/caelux/images/primeira-reuniao.jpg" alt="Foto Lousa"></p>
+]]></content>
+        </entry>
+      
+    
+      
+        <entry>
+            <title>Segunda Reunião</title>
+            <link href="http://leocwolter.github.io/caelux/segunda-reuniao"/>
+            <updated>2014-06-30T00:00:00.000Z</updated>
+            <id>tag:leocwolter.github.io,2014-06-30:/segunda-reuniao</id>
+            <content type="html"><![CDATA[<h2 id="segunda-reuni-o">Segunda Reuni&#xE3;o</h2>
+<p><img src="http://leocwolter.github.io/caelux/caelux/images/segunda-reuniao.jpg" alt="Foto Lousa"></p>
+]]></content>
+        </entry>
+      
+    
+      
+        <entry>
+            <title>Bem-vindo ao Blog do CaelUX :)</title>
+            <link href="http://leocwolter.github.io/caelux/bem-vindo"/>
+            <updated>2014-06-12T00:00:00.000Z</updated>
+            <id>tag:leocwolter.github.io,2014-06-12:/bem-vindo</id>
+            <content type="html"><![CDATA[<h2 id="como-criar-um-post">Como criar um post</h2>
+<p>Todo arquivo dentro da pasta <code>src/posts</code> ser&#xE1; considerado um post.
+Se quiser usar <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> &#xE9; s&#xF3; salvar com a extens&#xE3;o <code>.html.md</code>.
+Todo post deve conter um cabe&#xE7;alho como o do exemplo:</p>
+<pre><code>---
+date: yyyy-mm-dd
+category: categoriaDoPost
+title: nomeDoPost
+layout: post
+---
+</code></pre><p>Tudo que vier abaixo desse cabe&#xE7;alho ser&#xE1; considerado conte&#xFA;do.</p>
+<h2 id="as-categorias">As Categorias</h2>
+<p>Por enquanto temos as categorias:</p>
+<ul>
+<li>ata</li>
+<li>novosConhecimentos</li>
+<li>geral</li>
+</ul>
+<p>L&#xE1; no arquivo <code>docpad.js</code> temos uma vari&#xE1;vel <code>categories</code>. Se precisar adicionar ou editar uma categoria, &#xE9; s&#xF3; mexer l&#xE1;.</p>
+<h2 id="como-testar-na-sua-m-quina">Como testar na sua m&#xE1;quina</h2>
+<p>Voc&#xEA; vai precisar instalar o <a href="http://nodejs.org/">NodeJS</a> e depois executar o seguinte comando na ra&#xED;z do projeto:</p>
+<pre><code>npm install
+</code></pre><p>Se tudo der certo na instala&#xE7;&#xE3;o das depend&#xEA;ncias (comando acima), &#xE9; s&#xF3; executar o seguinte comando:</p>
+<pre><code>docpad run
+</code></pre><p>O blog estar&#xE1; em <code>http://localhost:9778</code></p>
+<h2 id="poss-veis-erros">Poss&#xED;veis erros</h2>
+<ul>
+<li>Se o <code>npm install</code> falhou, tente rodar com <code>sudo</code>;</li>
+<li>Se o <code>docpad run</code> n&#xE3;o funcionou depois que voc&#xEA; adicionou seu post, provavelmente h&#xE1; algum erro de sintaxe que zuou a vida na hora de parsear. D&#xEA; uma boa olhada no seu arquivo do post;</li>
+</ul>
+<h2 id="deploy">Deploy</h2>
+<p>Execute esse comando na ra&#xED;z do projeto:</p>
+<pre><code>docpad deploy-ghpages --env static
+</code></pre><p>O blog estar&#xE1; em <code>http://leocwolter.github.io/caelux</code></p>
+]]></content>
+        </entry>
+      
+    
+</feed>
