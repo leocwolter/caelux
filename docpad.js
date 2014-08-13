@@ -76,6 +76,11 @@ docpadConfig = function(){
 								 .on("add", function(model){
 								 	model.setMetaDefaults({layout: 'post'})
 								 })
+								 .setComparator(function(postA, postB){
+									var dateA = postA.toJSON().date
+									var dateB = postB.toJSON().date
+                 	return moment(dateB).unix() - moment(dateA).unix()
+								 })
 								 .live()
 				}
 			}
